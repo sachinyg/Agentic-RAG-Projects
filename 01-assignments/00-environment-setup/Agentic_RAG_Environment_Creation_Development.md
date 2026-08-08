@@ -663,3 +663,49 @@ index 0e2318b..7ff62f9 100644
 
 ================================================================================
 
+(.venv) PS C:\Dev\Agentic-RAG-Projects> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        01-assignments/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(.venv) PS C:\Dev\Agentic-RAG-Projects> git add .
+(.venv) PS C:\Dev\Agentic-RAG-Projects> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        new file:   01-assignments/00-environment-setup/.env.example
+        new file:   01-assignments/00-environment-setup/Agentic_RAG_Environment_Creation_Development.md
+        new file:   01-assignments/00-environment-setup/requirements.txt
+        new file:   01-assignments/00-environment-setup/src/test_env.py
+
+(.venv) PS C:\Dev\Agentic-RAG-Projects> git commit -m "Set up Python environment and dotenv configuration"
+[main 8933404] Set up Python environment and dotenv configuration
+ 5 files changed, 682 insertions(+)
+ create mode 100644 01-assignments/00-environment-setup/.env.example
+ create mode 100644 01-assignments/00-environment-setup/Agentic_RAG_Environment_Creation_Development.md
+ create mode 100644 01-assignments/00-environment-setup/requirements.txt
+ create mode 100644 01-assignments/00-environment-setup/src/test_env.py
+(.venv) PS C:\Dev\Agentic-RAG-Projects> git push
+info: please complete authentication in your browser...
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 5.20 KiB | 1.73 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sachinyg/Agentic-RAG-Projects.git
+   98efb2b..8933404  main -> main
+(.venv) PS C:\Dev\Agentic-RAG-Projects> 
