@@ -3,6 +3,8 @@
 .env.*
 !.env.example
 
+#env.example will not be ignored
+
 # Python virtual environments
 .venv/
 **/.venv/
